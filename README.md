@@ -11,7 +11,7 @@
 </div>
 <div>
   <h1> Tecnologias</h1>
-  <p> Feito com <strong>HTML</strong> e <strong>CSS</strong>.</p>
+  <p> Feito com <strong>HTML</strong> e <strong>CSS</strong> e é responsivo para mobile.</p>
   <img alt="Arthur-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img alt="Arthur-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>

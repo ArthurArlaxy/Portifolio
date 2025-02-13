@@ -125,8 +125,8 @@ body{
     font-family: var(--fonte-principal);
 }
 
-#imagem{
-    width: 40%;
+.imagem{
+    width: 40% ;
     border-radius: 8px; 
     border: 2px solid var(--cor-terciaria);
 }
@@ -141,18 +141,23 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
+.main__projetos > *{
+    margin: 4rem;
+}
+
 .projetos {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 5% 15% 0%;
-    gap: 82px;
+    flex-wrap: wrap;
+    margin: 2rem;
+    gap: 3rem;
 } 
+
 
 .cursos{
     display: flex;
     flex-direction: column;
-    padding: 5% 15% 0%;
     gap: 20px;
 }
 
@@ -167,9 +172,18 @@ body{
         flex-direction: column-reverse;
         padding: 5%;
     }
+
+    .main__projetos{
+        justify-content: center;
+    }
+
+    section img{
+        margin: 0 auto;
+    }
+
     .projetos{
+        justify-content: center;
         flex-direction: column;
-        padding: 5% 5% ;
         gap: 20px
     }
     .cursos{

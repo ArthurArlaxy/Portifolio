@@ -150,7 +150,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 5rem;
     gap: 3rem;
 } 
 

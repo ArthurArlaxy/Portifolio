@@ -149,10 +149,16 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 5rem;
     gap: 3rem;
 } 
+
+.apresentacao__projetos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2.5rem
+}
 
 
 .cursos{
@@ -175,10 +181,12 @@ body{
 
     section > img{
         margin: 0 auto;
+        width: 50%;
     }
 
     .projetos{
         flex-direction: column;
+        margin: 1rem;
         gap: 20px
     }
     .cursos{

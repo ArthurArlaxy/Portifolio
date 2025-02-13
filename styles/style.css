@@ -190,8 +190,7 @@ body{
         gap: 20px
     }
     .cursos{
-        justify-content: left;
-        padding: 5% 5% 0%;
+        text-align: center;
     }
     .apresentacao__conteudo{
         width: auto;

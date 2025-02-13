@@ -173,7 +173,7 @@ body{
         padding: 5%;
     }
 
-    section img{
+    section > img{
         margin: 0 auto;
     }
 

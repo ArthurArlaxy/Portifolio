@@ -182,7 +182,6 @@ body{
     }
 
     .projetos{
-        justify-content: center;
         flex-direction: column;
         gap: 20px
     }

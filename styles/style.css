@@ -148,7 +148,6 @@ body{
 .projetos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 5rem;
     gap: 3rem;
 } 
@@ -157,7 +156,8 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 2.5rem
+    gap: 2.5rem;
+    margin-top: 2%;
 }
 
 
